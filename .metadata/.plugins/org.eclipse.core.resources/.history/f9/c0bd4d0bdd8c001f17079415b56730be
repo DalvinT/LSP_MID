@@ -1,0 +1,5 @@
+a) The UserFitness class has low cohesion if it tries to manage too many unrelated activities within the same class. For example, if it tracks activities, handles nutrition, and manages user personal data all within a single class, it lacks focus and is doing more than one thing. A class should ideally have a single responsibility (the Single Responsibility Principle), and when it doesn’t, it suffers from low cohesion.
+b)To increase cohesion, you could split the UserFitness class into smaller, more focused classes:
+ActivityTracking: Responsible for tracking workouts and fitness activities.
+NutritionTracking: Responsible for managing the user's diet and calorie intake.
+UserProfile: Handles the user's personal information, such as name, age, and weight. This would make each class have a more specific purpose, improving maintainability and clarity.

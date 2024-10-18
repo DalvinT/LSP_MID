@@ -1,0 +1,2 @@
+Student should be an abstract class because all students share common attributes (like name, ID, etc.), but each year of students has specific behaviors that can be defined in their respective subclasses. An abstract class allows shared attributes and methods while enforcing that subclasses provide their own implementation for year-specific behaviors.
+The removeThirdYears method is flawed because modifying a list while iterating through it can cause a ConcurrentModificationException. The correct approach is to use an iterator and remove the elements through it

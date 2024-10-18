@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/dalvinticha/eclipse-workspace-lsp/.metadata/.plugins/org.eclipse.jdt.core
+2910344484.index
+689086245.index
+1865797976.index

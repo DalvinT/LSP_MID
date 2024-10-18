@@ -1,0 +1,16 @@
+a)If the Car class hardcodes the trim levels or engine type, it cannot dynamically change them. The current setup seems to lack flexibility for changing trim levels or engines.
+b)To allow dynamic trim-level and engine changes, you should refactor Car to use composition:
+public class Car {
+    private TrimLevel trimLevel;
+    private Engine engine;
+
+    public void setTrimLevel(TrimLevel trimLevel) {
+        this.trimLevel = trimLevel;
+    }
+
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+}
+
+// TrimLevel and Engine can be separate classes with specific behaviors

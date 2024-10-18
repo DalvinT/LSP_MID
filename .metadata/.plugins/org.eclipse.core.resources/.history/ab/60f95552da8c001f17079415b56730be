@@ -1,0 +1,1 @@
+Student should be an abstract class because all students share common attributes (like name, ID, etc.), but each year of students has specific behaviors that can be defined in their respective subclasses. An abstract class allows shared attributes and methods while enforcing that subclasses provide their own implementation for year-specific behaviors.
